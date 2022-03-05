@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhokes</title>
+    <link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>Jhokes</h1>
+    <img id="i1" src="https://img.freepik.com/free-vector/cool-monkey-dabbing-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3373.jpg?w=740" alt="">
+    <img id="i2" src="https://data.whicdn.com/images/171972566/original.gif" alt="">
+    <img id="i3" src="https://c.tenor.com/kc8GhS7hwmcAAAAd/good-night.gif" alt="">
+    <div class="custom">
+        <span class="custom-header">Customize: </span>
+        <input type="checkbox"  value="Programming" onchange="addPrior(event)">Programming     
+        <input type="checkbox" value="Miscellaneous" onchange="addPrior(event)">Miscellaneous
+        <input type="checkbox" value="Dark" onchange="addPrior( event)">Dark
+        <input type="checkbox"  value="Pun" onchange="addPrior( event)">Pun
+        <input type="checkbox"  value="Spooky" onchange="addPrior( event)">Spooky
+        <input type="checkbox"  value="Christmas" onchange="addPrior( event)">Christmas
+    </div>
+    <center>
+        <div class="jokeBox">
+            <div id="setup"></div>
+            <div id="delivery"></div>
+        </div>
+    </center>
+    <button id="refresh">Next Joke</button>
+    <button id="save">Save Joke</button>
+    <div class="blacklist">
+        <span class="custom-header">Blacklist </span>
+        <input type="checkbox"  value="nsfw" onchange="addPrior2(event)">NSFW     
+        <input type="checkbox" value="racist" onchange="addPrior2(event)">Racist
+        <input type="checkbox" value="sexist" onchange="addPrior2( event)">Sexist
+        <input type="checkbox"  value="explicit" onchange="addPrior2( event)">Explicit
+        <input type="checkbox"  value="religious" onchange="addPrior2( event)">Religious
+        <input type="checkbox"  value="political" onchange="addPrior2( event)">Political
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
