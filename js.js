@@ -72,28 +72,7 @@ if (index > -1) {
 
 console.log($("#name").val)
 
-// function addPrior2(e)
-// {
-//   if(e.target.checked){
-//      addToArray(e.target);
-//      bringJoke();
-//      console.log(arr2);
-//   }else{
-//      removeToArray(e.target);
-//      bringJoke();
-//      console.log(arr2)
-//   }
-// }
-// var arr2 = [];
-// function addToArray(obj){
-//   arr2.push(obj.value)
-// }
-// function removeToArray(obj){
-// var index = arr2.indexOf(obj.value);
-// if (index > -1) {
-//    arr2.splice(index, 1);
-//  }
-// }
+
 
 
 
