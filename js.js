@@ -70,12 +70,5 @@ if (index > -1) {
  }
 }
 
-console.log($("#name").val)
-
-
-
-
-
-
 bringJoke();
 $("#refresh").click(bringJoke);
